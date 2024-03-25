@@ -10,3 +10,31 @@ main {
 main section {
     width: 1000px;
 }
+
+button {
+    height: 30px;
+    width: 60px;
+}
+
+#toggle-div {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+#blog-list {
+    align-items: center;
+    flex-direction: column; 
+}
+
+.blog-post {
+    width: 900px;
+    border: 1px solid black;
+    padding: 0 30px;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.blog-post h3 {
+    border-bottom: 2px double black;
+}
