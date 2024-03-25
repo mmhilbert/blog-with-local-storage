@@ -1,0 +1,12 @@
+header {
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main section {
+    width: 1000px;
+}

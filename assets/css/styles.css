@@ -11,6 +11,14 @@ body {
     font-family: "Mak", sans-serif;
 }
 
+body.darkmode {
+    background-color: gray;
+}
+
+body.darkmode h1 {
+    color: indigo;
+}
+
 header {
     display: flex;
     width: 100%;
@@ -31,16 +39,6 @@ main section {
 
 h1 {
     font-size: 100px;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 30px;
-}
-
-form input {
-    margin-bottom: 8px;
 }
 
 #toggle-div {
@@ -95,6 +93,21 @@ form input {
     box-shadow: 0px 1px 2px rgba(1,1,1,1.2);
 }
 
+#title-div {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #title-div h1 {
     margin: 0;
+}
+
+#title-div h1:nth-child(odd) {
+    align-self: start;
+}
+
+#title-div h1:nth-child(even) {
+    align-self: flex-end;
 }
