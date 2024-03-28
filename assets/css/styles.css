@@ -19,7 +19,8 @@ body {
 }
 
 body.darkmode {
-    background-color: var(--backgound-color-darkmode)
+    background-color: var(--backgound-color-darkmode);
+    color: var(--primary-color)
 }
 
 body.darkmode h1 {
@@ -32,7 +33,6 @@ body.darkmode form {
 
 header {
     display: flex;
-    width: 100%;
     justify-content: flex-end;
 }
 
@@ -68,6 +68,24 @@ button {
 button:hover {
     background-color: #984436;
 }
+
+footer {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ad4e3f;
+}
+
+body.darkmode footer a {
+    color: var(--secondary-color);
+}
+
+footer a:hover {
+    text-decoration: underline
+}
+
 
 #toggle-div {
     margin-bottom: 10px;

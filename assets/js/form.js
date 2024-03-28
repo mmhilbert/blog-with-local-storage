@@ -48,7 +48,7 @@ const saveBlogPost = function(event) {
     }
 
    addBlogPostToLS(formData)
-   window.location.href = "/blog.html"
+   window.location.href = "./blog.html"
 }
 
  

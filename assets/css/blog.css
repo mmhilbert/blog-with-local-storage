@@ -7,7 +7,14 @@
 }
 
 header {
+    display: flex;
+    justify-content: center
+}
+
+nav {
+    display: flex;
     justify-content: space-between;
+    width:  90%;
 }
 
 button {
@@ -35,6 +42,7 @@ button {
     width: 60px;
 }
 
+
 #toggle-div {
     display: flex;
     gap: 8px;
@@ -59,9 +67,7 @@ button {
     border-bottom: 2px double black;
 }
 
-body.darkmode {
-    color: var(--primary-color);
-}
+
 
 body.darkmode #blog-list {
     border-color: var(--primary-color);
