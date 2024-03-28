@@ -1,5 +1,24 @@
+:root {
+    --background-color: #D4D3CF;
+    --primary-color: #F8F3E9;
+    --secondary-color: #E46854;
+    --backgound-color-darkmode: #515276;
+
+}
+
 header {
     justify-content: space-between;
+}
+
+button {
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border-color: #ad4e3f;
+}
+
+button:hover {
+    background-color: #984436;
 }
 
 main {
@@ -8,7 +27,7 @@ main {
 }
 
 main section {
-    width: 1000px;
+    width: 90%;
 }
 
 button {
@@ -24,17 +43,34 @@ button {
 
 #blog-list {
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .blog-post {
-    width: 900px;
+    width: 90%;
     border: 1px solid black;
-    padding: 0 30px;
+    box-sizing: border-box;
+    padding: 0 20px;
     margin: 20px 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
 .blog-post h3 {
     border-bottom: 2px double black;
+}
+
+body.darkmode {
+    color: var(--primary-color);
+}
+
+body.darkmode #blog-list {
+    border-color: var(--primary-color);
+}
+
+body.darkmode .blog-post {
+    border-color: var(--primary-color);
+}
+
+body.darkmode .blog-post h3 {
+    border-color: var(--primary-color);
 }

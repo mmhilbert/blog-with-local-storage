@@ -1,3 +1,11 @@
+:root {
+    --background-color: #D4D3CF;
+    --primary-color: #F8F3E9;
+    --secondary-color: #E46854;
+    --backgound-color-darkmode: #515276;
+
+}
+
 form {
     display: flex;
     flex-direction: column;
